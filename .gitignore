@@ -1,6 +1,7 @@
 # Compiled class file
 *.class
-
+!**/src/main/**/target/
+!**/src/test/**/target/
 # Log file
 *.log
 
@@ -11,6 +12,7 @@
 .mtj.tmp/
 
 # Package Files #
+*.idea
 *.jar
 *.war
 *.nar
@@ -22,3 +24,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+target/JavaDevMod8/WEB-INF/web.xml
+target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst
+target/maven-archiver/pom.properties
+target/JavaDevMod8/META-INF/MANIFEST.MF
+target/JavaDevMod8/index.jsp
